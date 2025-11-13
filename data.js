@@ -100,15 +100,15 @@ const MODULES_DATA = {
             {
               "title": "Hashing Fundamentals",
               "minRequirement": {
-                "fresher": "Understand basic hashing concepts and implement simple hash functions",
+                "fresher": "Understand how hashing works and when to use frequency array and hash maps",
                 "sde1": "Master hash table implementations and handle collisions efficiently",
                 "sde2": "Design advanced hashing schemes for large-scale systems"
               }
             },
             {
-              "title": "Advanced HashSet and HashMap Techniques",
+              "title": "Mastering HashSet and HashMap",
               "minRequirement": {
-                "fresher": "Implement basic HashSet and HashMap operations",
+                "fresher": "To be able to solve easy to medium questions using HashSet and HashMap",
                 "sde1": "Master advanced hashing techniques and optimize hash-based solutions",
                 "sde2": "Design scalable hash-based data structures for complex system requirements"
               }
@@ -184,7 +184,7 @@ const MODULES_DATA = {
         },
         {
           "id": 6,
-          "title": "Practice & Reinforcement",
+          "title": "Drill",
           "lessons": [
             {
               "title": "Comprehensive Problem Drill",
@@ -224,7 +224,7 @@ const MODULES_DATA = {
               }
             },
             {
-              "title": "Chapter Linked List Operations Parts 1 & 2",
+              "title": "Linked List Parts 1 & 2",
               "minRequirement": {
                 "fresher": "Implement fundamental linked list operations (insert, delete, traverse)",
                 "sde1": "Master complex operations like merging, reversing, and cycle detection",
@@ -260,7 +260,7 @@ const MODULES_DATA = {
             }
           ],
           "goal": {
-            "fresher": "Master fundamental OOP concepts and basic system design principles",
+            "fresher": "Strong understanding of OOP concepts and basic system design principles",
             "sde1": "Design efficient applications using advanced OOP patterns and database concepts",
             "sde2": "Architect scalable systems with optimal OOP and database design patterns"
           }
@@ -520,7 +520,7 @@ const MODULES_DATA = {
               "title": "High-Level Design Principles & Consistent Hashing"
             },
             {
-              "title": "Caching Strategies"
+              "title": "Caching Part 1"
             }
           ]
         },
@@ -544,16 +544,7 @@ const MODULES_DATA = {
               "title": "Railway Reservation System Design (IRCTC Case Study)"
             },
             {
-              "title": "Payment System Design"
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "title": "Project Development",
-          "lessons": [
-            {
-              "title": "Project Implementation (2-part series)"
+              "title": "Payment Gateway System Design"
             }
           ]
         }
@@ -572,46 +563,64 @@ const MODULES_DATA = {
           "title": "Distributed Systems Fundamentals",
           "lessons": [
             {
-              "title": "Core Concepts: Replication, Consistency, Fault Tolerance"
+              "title": "Caching Part 2"
             },
             {
-              "title": "Database Partitioning, CAP Theorem & Sharding"
+              "title": "CAP Theorem , Master Slave and Replication Master-Slave"
             }
           ]
         },
         {
           "id": 2,
-          "title": "Scalability Strategies",
+          "title": "Data Storage At Scale",
           "lessons": [
             {
-              "title": "Caching Layers & Distributed Cache"
+              "title": "SQL vs NoSQL Databases"
             },
             {
-              "title": "Load Balancing & Messaging Queues"
+              "title": "Mastering NoSQL Databases)"
             }
           ]
         },
         {
           "id": 3,
-          "title": "Advanced Case Studies",
+          "title": "Multi-Region & Multi-Master Systems",
           "lessons": [
             {
-              "title": "Designing at Scale: WhatsApp, Netflix, Uber"
-            },
-            {
-              "title": "Distributed System Failures & Observability"
+              "title": "Case Study 1 - Multi Master"
             }
           ]
         },
-        {
+         {
           "id": 4,
-          "title": "Final Capstone Project",
+          "title": "Zookeeper & Kafka",
           "lessons": [
             {
-              "title": "Full System Design and Implementation"
+              "title": "Case Study 2 - Zookeeper & Kafka"
+            },
+          ]
+        },
+         {
+          "id": 5,
+          "title": "Elastic Search & Real-Time Systems",
+          "lessons": [
+            {
+              "title": "Case Study 3 - Elastic Search "
+            },
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Geospatial Systems Design",
+          "lessons": [
+            {
+              "title": "S3 + Quad Trees (nearest neighbours)"
+            },
+            {
+              "title": "Hotstar Case Study"
             }
           ]
-        }
+        },
       ]
     }
   ]
@@ -655,178 +664,28 @@ const BONUS_DATA =
     },
     {
       "id": 2,
-      "title": "Bonus Module 2: Intermediate Concepts",
+      "title": "Bonus",
       "chapters": [
         {
           "id": 1,
-          "title": "Concurrency & Algorithm Patterns",
-          "lessons": [
-            {
-              "title": "Multi-threading & API Design Principles",
-              "minRequirement": {
-                "fresher": "Understand fundamental multi-threading concepts including concurrency, synchronization, and basic API design principles",
-                "sde1": "Master multi-threading design patterns and architect scalable RESTful APIs with proper synchronization mechanisms",
-                "sde2": "Master multi-threading design patterns and architect scalable RESTful APIs with proper synchronization mechanisms"
-              }
-            },
-            {
-              "title": "Basic Recursion Permutation Techniques & Introduction to Dynamic Programming",
-              "minRequirement": {
-                "fresher": "Master basic recursion patterns, permutation generation techniques, and solve introductory dynamic programming problems confidently",
-                "sde1": "Master advanced recursion patterns, backtracking algorithms, and intermediate-to-advanced dynamic programming optimization techniques",
-                "sde2": "Master advanced recursion patterns, backtracking algorithms, and intermediate-to-advanced dynamic programming optimization techniques"
-              }
-            }
-          ],
-          "goal": {
-            "fresher": "Develop proficiency in multi-threading fundamentals and recursive problem-solving techniques",
-            "sde1": "Achieve mastery in concurrent programming patterns and advanced algorithmic problem-solving",
-            "sde2": "Achieve mastery in concurrent programming patterns and advanced algorithmic problem-solving"
-          }
-        },
-        {
-          "id": 2,
-          "title": "Advanced Java Concurrency",
-          "lessons": [
-            {
-              "title": "Java Advanced Concurrency & Multi-threading",
-              "minRequirement": {
-                "fresher": "Understand Java concurrency fundamentals including thread lifecycle, synchronization, and basic concurrent collections",
-                "sde1": "Master Java concurrency patterns, thread safety mechanisms, executor frameworks, and concurrent data structures",
-                "sde2": "Master Java concurrency patterns, thread safety mechanisms, executor frameworks, and concurrent data structures"
-              }
-            },
-            {
-              "title": "Java Advanced Concurrency & Reflection API",
-              "minRequirement": {
-                "fresher": "Understand Java reflection fundamentals and basic introspection capabilities",
-                "sde1": "Master Java reflection API, dynamic proxy patterns, and runtime metaprogramming techniques",
-                "sde2": "Master Java reflection API, dynamic proxy patterns, and runtime metaprogramming techniques"
-              }
-            }
-          ],
-          "goal": {
-            "fresher": "Build foundational understanding of advanced Java concurrency and reflection concepts",
-            "sde1": "Master advanced Java concurrency mechanisms and reflection-based metaprogramming",
-            "sde2": "Master advanced Java concurrency mechanisms and reflection-based metaprogramming"
-          }
-        },
-        {
-          "id": 3,
           "title": "Distributed Systems Fundamentals",
           "lessons": [
             {
-              "title": "Advanced Caching Strategies Part 2",
-              "minRequirement": {
-                "fresher": "Understand advanced caching patterns including cache invalidation, eviction policies, and distributed caching concepts",
-                "sde1": "Master caching design patterns, implementation strategies, cache coherence protocols, and performance optimization techniques",
-                "sde2": "Master caching design patterns, implementation strategies, cache coherence protocols, and performance optimization techniques"
-              }
+              "title": "Caching Part 2"
             },
             {
-              "title": "CAP Theorem & Master-Slave Replication",
-              "minRequirement": {
-                "fresher": "Understand CAP theorem principles, consistency models, and basic master-slave replication architectures",
-                "sde1": "Master CAP theorem trade-offs, replication strategies, failover mechanisms, and consistency guarantees in distributed systems",
-                "sde2": "Master CAP theorem trade-offs, replication strategies, failover mechanisms, and consistency guarantees in distributed systems"
-              }
+              "title": "CAP Theorem , Master Slave and Replication Master-Slave"
             }
-          ],
-          "goal": {
-            "fresher": "Build foundational understanding of distributed systems principles and data replication",
-            "sde1": "Master distributed systems architecture and advanced replication patterns",
-            "sde2": "Master distributed systems architecture and advanced replication patterns"
-          }
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "title": "Bonus Module 3: Advanced & Leadership",
+      "title": "Bonus",
       "chapters": [
         {
           "id": 1,
-          "title": "Expert Concurrency & Algorithm Optimization",
-          "lessons": [
-            {
-              "title": "Multi-threading & API Design Principles",
-              "minRequirement": {
-                "fresher": "Understand fundamental multi-threading concepts including concurrency, synchronization, and basic API design principles",
-                "sde1": "Master multi-threading design patterns and architect scalable RESTful APIs with proper synchronization mechanisms",
-                "sde2": "Demonstrate expert-level understanding of multi-threading architectures, lock-free programming, and design highly scalable APIs for distributed systems"
-              }
-            },
-            {
-              "title": "Basic Recursion Permutation Techniques & Introduction to Dynamic Programming",
-              "minRequirement": {
-                "fresher": "Master basic recursion patterns, permutation generation techniques, and solve introductory dynamic programming problems confidently",
-                "sde1": "Master advanced recursion patterns, backtracking algorithms, and intermediate-to-advanced dynamic programming optimization techniques",
-                "sde2": "Demonstrate expert-level mastery of recursion optimization, advanced backtracking, and dynamic programming with space-time complexity optimization"
-              }
-            }
-          ],
-          "goal": {
-            "fresher": "Develop proficiency in multi-threading fundamentals and recursive problem-solving techniques",
-            "sde1": "Achieve mastery in concurrent programming patterns and advanced algorithmic problem-solving",
-            "sde2": "Achieve expert-level mastery in concurrent systems design and algorithmic optimization"
-          }
-        },
-        {
-          "id": 2,
-          "title": "Expert Java Concurrency",
-          "lessons": [
-            {
-              "title": "Java Advanced Concurrency & Multi-threading",
-              "minRequirement": {
-                "fresher": "Understand Java concurrency fundamentals including thread lifecycle, synchronization, and basic concurrent collections",
-                "sde1": "Master Java concurrency patterns, thread safety mechanisms, executor frameworks, and concurrent data structures",
-                "sde2": "Demonstrate expert-level Java concurrency with lock-free algorithms, memory models, performance profiling, and optimization techniques"
-              }
-            },
-            {
-              "title": "Java Advanced Concurrency & Reflection API",
-              "minRequirement": {
-                "fresher": "Understand Java reflection fundamentals and basic introspection capabilities",
-                "sde1": "Master Java reflection API, dynamic proxy patterns, and runtime metaprogramming techniques",
-                "sde2": "Demonstrate expert-level Java reflection, annotation processing, bytecode manipulation, and advanced metaprogramming patterns"
-              }
-            }
-          ],
-          "goal": {
-            "fresher": "Build foundational understanding of advanced Java concurrency and reflection concepts",
-            "sde1": "Master advanced Java concurrency mechanisms and reflection-based metaprogramming",
-            "sde2": "Achieve expert-level mastery of Java concurrency and advanced metaprogramming techniques"
-          }
-        },
-        {
-          "id": 3,
-          "title": "Expert Distributed Systems",
-          "lessons": [
-            {
-              "title": "Advanced Caching Strategies Part 2",
-              "minRequirement": {
-                "fresher": "Understand advanced caching patterns including cache invalidation, eviction policies, and distributed caching concepts",
-                "sde1": "Master caching design patterns, implementation strategies, cache coherence protocols, and performance optimization techniques",
-                "sde2": "Demonstrate expert-level caching architectures, distributed cache coordination, write-through/write-back strategies, and large-scale optimization"
-              }
-            },
-            {
-              "title": "CAP Theorem & Master-Slave Replication",
-              "minRequirement": {
-                "fresher": "Understand CAP theorem principles, consistency models, and basic master-slave replication architectures",
-                "sde1": "Master CAP theorem trade-offs, replication strategies, failover mechanisms, and consistency guarantees in distributed systems",
-                "sde2": "Demonstrate expert-level understanding of distributed systems design, consensus algorithms, eventual consistency, and multi-datacenter replication"
-              }
-            }
-          ],
-          "goal": {
-            "fresher": "Build foundational understanding of distributed systems principles and data replication",
-            "sde1": "Master distributed systems architecture and advanced replication patterns",
-            "sde2": "Achieve expert-level mastery of distributed systems architecture at enterprise scale"
-          }
-        },
-        {
-          "id": 4,
           "title": "Product Management for Engineers",
           "lessons": [
             {
