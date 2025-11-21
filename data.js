@@ -270,10 +270,10 @@ const MODULES_DATA = {
           "title": "Chapter 3: Databases & Techstack Workflows",
           "lessons": [
             {
-              "title": "Database Management Systems (DBMS), Binary Search & Greedy Algorithms",
+              "title": "Database Management Systems (DBMS)",
               "minRequirement": {
-                "fresher": "Implement basic database operations and understand fundamental algorithms",
-                "sde1": "Design efficient database queries and optimize algorithmic solutions",
+                "fresher": "Implement basic database operations and understand fundamentals",
+                "sde1": "Design efficient database queries and optimize them",
                 "sde2": "Architect complex database systems with advanced optimization strategies"
               }
             },
@@ -329,6 +329,22 @@ const MODULES_DATA = {
                 "fresher": "Implement basic prime number checks and solve simple mathematical problems",
                 "sde1": "Master efficient prime number algorithms and advanced mathematical computations",
                 "sde2": "Optimize mathematical algorithms for large-scale computations and system design"
+              }
+            },
+            {
+              "title": "Binary Search",
+              "minRequirement": {
+                "fresher": "Implement basic binary search and solve simple search problems",
+                "sde1": "Master advanced binary search techniques and optimizations",
+                "sde2": "Optimize search algorithms for large-scale data and system design"
+              }
+            },
+            {
+              "title": "Greedy Algorithms",
+              "minRequirement": {
+                "fresher": "Implement basic greedy algorithms and solve simple optimization problems",
+                "sde1": "Master advanced greedy techniques and problem-solving strategies",
+                "sde2": "Optimize complex systems using greedy algorithms and design patterns"
               }
             }
           ], 
